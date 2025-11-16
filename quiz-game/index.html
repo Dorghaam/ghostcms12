@@ -1,0 +1,6 @@
+---
+layout: layout.html
+---
+{% for question in collections.questions %}
+<h2><a href="{{ question.url }}">{{ question.data.title }}</a></h2>
+{% endfor %}
